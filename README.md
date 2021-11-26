@@ -26,7 +26,7 @@ To verify if the script is in conform to the PEP8 best practices of programming,
 
 
 # What is all this code doing?
-Basically, what is being propose here is a simple and meaningful visualization of the data for the United States and Brazil scenarios, where is shown how strong the country's coin was along the period of 1999 - 2021 (and emphatizing which was the president at that moment).
+Basically, what is being propose here is a simple and meaningful visualization of the data for the United States and Brazil scenarios, where is shown how strong the country's coin was along the period of 1999 - 2021 (and emphatizing which were presidents at that moment).
 
 ## Euro to Dollar 
 ![euro to dollar](./imgs/US_presidents.png)
