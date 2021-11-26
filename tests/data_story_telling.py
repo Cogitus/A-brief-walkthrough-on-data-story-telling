@@ -48,7 +48,7 @@ def format_columns(df2format, format_dict):
     '''
     for character, to_replace in format_dict.items():
         df2format.columns = [column.replace(character, to_replace)
-                            for column in exchange_rates.columns]
+                            for column in df2format.columns]
 
 def get_rolling_window(data_series, window_size):
     '''
