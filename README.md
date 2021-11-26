@@ -4,7 +4,13 @@ This project aims for a brief and clear revision about the most used concepts of
 As an extension of the objective of this project, the usage libraries such as ```pylint```, ```autopep8``` and ```logging``` were used as forms of making the project as near as possbible of what it would be if this was in an 'in development system'. 
 
 # Installing the dependencies
-For the installation of the necessary libraries to make this project run, it is achievable by executing the following command:
+If you have anaconda installed, you can create an isolated enviroment using:
+
+    $ conda create --name storytelling python==3.10
+    $ conda activate storytelling
+
+
+For the installation of the necessary libraries to make this project run, it is achievable by executing the following command (on this repo root folder):
 
     $ pip install -r requirements.txt
 
