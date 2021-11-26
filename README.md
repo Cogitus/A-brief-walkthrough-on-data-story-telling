@@ -23,3 +23,14 @@ For the testing of the python script ```.py```, use:
 To verify if the script is in conform to the PEP8 best practices of programming, use:
 
     $ pylint script.py
+
+
+# What is all this code doing?
+Basically, what is being propose here is a simple and meaningful visualization of the data for the United States and Brazil scenarios, where is shown how strong the country's coin was along the period of 1999 - 2021 (and emphatizing which was the president at that moment).
+
+## Euro to Dollar 
+![euro to dollar](./imgs/US_presidents.png)
+## Euro to Brazilian Real
+![euro to brazilian real](./imgs/BRAZIL_presidents_DOLLAR2REAL.png)
+## Dollar to Brazilian Real
+![dollar to real](./imgs/BRAZIL_presidents_EURO2REAL.png)
