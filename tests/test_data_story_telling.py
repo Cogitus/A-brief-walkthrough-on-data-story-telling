@@ -32,17 +32,3 @@ def test_get_rolling_window():
     format_columns(exchange_rates, replace_map)
     exchange_rates = exchange_rates[exchange_rates['US_dollar'] != '-']
     assert isinstance(get_rolling_window(exchange_rates['US_dollar'], 15), pd.Series) is True
-
-if __name__ == '__main__':
-    exchange_rates = read_file(path)
-
-    # renaming the column names
-    replace_map = {
-        '[': '',
-        ' ]': '',
-        ' ': '_'
-    }
-    format_columns(exchange_rates, replace_map)
-    exchange_rates = exchange_rates[exchange_rates['US_dollar'] != '-']
-    print(type(get_rolling_window(exchange_rates['US_dollar'], 15)))
-    # print(isinstance(get_rolling_window(exchange_rates['US_dollar'], 15), pd.Series))
