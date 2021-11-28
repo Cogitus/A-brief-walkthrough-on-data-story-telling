@@ -30,8 +30,8 @@ def read_file(path):
     try:
         exchange_df = pd.read_csv(path)
         return exchange_df
-    except FileNotFoundError:
-        logging.error('File not readed.')
+    except FileNotFoundError as err:
+        logging.error(err)
         return None
 
 
